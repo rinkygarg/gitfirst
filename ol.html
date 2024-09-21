@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An ordered HTML list</h2>
+<div>
+<ul style="background-color: pink;width:200px;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+</div>
+<a href="https://www.google.com/">Click here</a><br>
+</body>
+</html>
+
+<script>
+    const li=document.querySelectorAll('li');
+    for(var i=0;i<li.length;i++){
+        li[i].style.color='red';
+        li[i].style.backgroundColor='yellow';
+        li[i].style.padding='30px'
+        li[i].style.width='50px'
+        li[i].style.margin='50px'
+    }
+    const ul=document.querySelector('ul');
+    ul.style.backgroundColor='green';
+    ul.marginleft='50px'
+</script>
+
