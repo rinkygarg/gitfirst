@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3700b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-details {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6200ea;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Matrimonial Connect</h1>
+        <p>Your perfect match is just a click away!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#profiles">Profiles</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <h2>Featured Profiles</h2>
+        <div class="profile">
+            <img src="https://via.placeholder.com/100" alt="Profile Picture">
+            <div class="profile-details">
+                <h3>John Doe</h3>
+                <p>Age: 30 | Profession: Engineer | Location: New York</p>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="https://via.placeholder.com/100" alt="Profile Picture">
+            <div class="profile-details">
+                <h3>Jane Smith</h3>
+                <p>Age: 28 | Profession: Doctor | Location: California</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Matrimonial Connect. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
